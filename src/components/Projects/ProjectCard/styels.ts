@@ -4,7 +4,7 @@ export const CardContainer = styled.div`
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   margin-bottom: 24px;
-  margin-right: 24px;
+  margin-right: 2%;
   max-width: 350px;
   word-break: break-all;
 `;
