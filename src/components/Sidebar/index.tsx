@@ -36,9 +36,9 @@ const closedMixin = (theme: Theme): CSSObject => ({
     duration: theme.transitions.duration.leavingScreen,
   }),
   overflowX: "hidden",
-  width: `calc(${theme.spacing(7)} + 1px)`,
+  width: `0px`,
   [theme.breakpoints.up("sm")]: {
-    width: `calc(${theme.spacing(8)} + 1px)`,
+    width: `0px`,
   },
 });
 
@@ -89,7 +89,7 @@ const Drawer = styled(MuiDrawer, {
   }),
 }));
 
-export default function Sidebar({ children }: any) {
+export default function Sidebar({ children }: React.PropsWithChildren) {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 

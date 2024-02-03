@@ -22,8 +22,7 @@ export function ProjectCard() {
           <DateValue>05/04/2024</DateValue>
         </DateContainer>
         <ChartContainer>
-          <span>% Concluido</span>
-          <FakeChart />
+          Andamento: <span>67%</span>
         </ChartContainer>
       </Body>
     </CardContainer>

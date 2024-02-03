@@ -75,7 +75,7 @@ export default function EAP() {
     <Sidebar>
       <Box
         sx={{
-          width: "94vw",
+          width: "97vw",
           height: "88vh",
           display: "flex",
           justifyContent: "space-between",
